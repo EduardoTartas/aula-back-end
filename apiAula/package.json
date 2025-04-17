@@ -1,0 +1,24 @@
+{
+  "name": "apiaula",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "send": "node src/send.js",
+    "seed": "node src/seeds/seeds.js",
+    "start": "node server.js"
+  },
+  "author": "EduardoTartas",
+  "license": "ISC",
+  "description": "API que começou a ser desenvolvida na aula do dia 16.04",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "faker-br": "^0.4.1",
+    "mongoose": "^8.13.2",
+    "mongoose-paginate-v2": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
